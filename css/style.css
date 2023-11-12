@@ -333,6 +333,11 @@
         text-align: center;
         margin-top: 0rem;
     }
+    .footer a{
+      color: #fff;
+      margin-top: 0rem;
+      text-decoration: none;
+  }
       
       @media screen and (max-width: 1200px){
         #logo{
