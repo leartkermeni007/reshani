@@ -355,6 +355,9 @@
         }
       }
         @media screen and (max-width: 991px){
+          .a1{
+            display: block;
+          }
           #contactus{
             background: orangered;
             height: 220vh;
