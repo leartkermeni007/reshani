@@ -192,6 +192,9 @@
       padding: 40px 100px ;
     }
     .title1{
+      text-transform: uppercase;
+      color:white;
+      font-family: 'Roboto Mono', monospace;
       display: flex;
       justify-content: center;
       align-items: center;
