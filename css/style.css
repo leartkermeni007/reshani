@@ -269,7 +269,7 @@
       outline: none;
       border: 1px solid #333;
       resize: none;
-      min-height: 240px;
+      min-height: 420px;
       margin-bottom: 10px;
     }
     .inputbox input[type="submit"]{
@@ -346,7 +346,7 @@
   display: inline;
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1600px){
 ::-webkit-scrollbar {
     width: 0.7rem;
 }
