@@ -200,8 +200,10 @@
       align-items: center;
       font-size:2em;
     }
-   .contactus .containercontact .title1 h2{
-      color: #fff;
+   #contactus .containercontact .title1 h2{
+       text-transform: uppercase;
+      color:white;
+      font-family: 'Roboto Mono', monospace;
       font-weight: 500;
     }
     .form{
