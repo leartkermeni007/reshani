@@ -347,7 +347,7 @@
   display: inline;
 }
 
-@media screen and (max-width: 1424px){
+@media screen and (max-width: 1524px){
 ::-webkit-scrollbar {
     width: 0.7rem;
 }
