@@ -22,7 +22,7 @@
     @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
     html,
       *{
-        font-family: 'Roboto Mono', monospace;
+        font-family: 'Dosis', sans-serif;
       margin: 0px;
       padding: 0px;
       box-sizing: border-box;
@@ -194,7 +194,7 @@
     .title1{
       text-transform: uppercase;
       color:white;
-      font-family: 'Roboto Mono', monospace;
+    font-family: 'Dosis', sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -203,7 +203,7 @@
    #contactus .containercontact .title1 h2{
        text-transform: uppercase;
       color:white;
-      font-family: 'Roboto Mono', monospace;
+  font-family: 'Dosis', sans-serif;
       font-weight: 500;
     }
     .form{
@@ -549,7 +549,7 @@
          .title1{
       text-transform: uppercase;
       color:white;
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Dosis', sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -558,7 +558,7 @@
    #contactus .containercontact .title1 h2{
        text-transform: uppercase;
       color:white;
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Dosis', sans-serif;
       font-weight: 500;
     }
       .form{
