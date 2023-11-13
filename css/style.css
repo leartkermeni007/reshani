@@ -290,6 +290,7 @@
     }
     .info h3{
       color: white;
+      text-transform: uppercase;
     }
     .info .infobox div{
       display: flex;
