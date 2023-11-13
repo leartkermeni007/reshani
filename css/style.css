@@ -269,7 +269,7 @@
       outline: none;
       border: 1px solid #333;
       resize: none;
-      min-height: 420px;
+      min-height: 320px;
       margin-bottom: 10px;
     }
     .inputbox input[type="submit"]{
