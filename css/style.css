@@ -797,10 +797,10 @@ font-family: 'Dosis', sans-serif;
       }
         @media screen and (max-width: 991px){
           #section2{
-            height: 220vh;
+            height: 240vh;
           }
           .ccontainer{
-            height: 150vh;
+            height: 165vh;
             display: block;
           }
           .a1{
