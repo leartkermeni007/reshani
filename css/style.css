@@ -151,6 +151,9 @@
       z-index: 5;
       margin-top:1rem;
       margin-left: 10rem;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
     }
     #txt1{
       font-size: 3rem;
@@ -424,6 +427,7 @@
 }
 
 @media screen and (max-width: 1524px){
+
 ::-webkit-scrollbar {
     width: 0.7rem;
 }
@@ -502,10 +506,13 @@
       #e1{
         position: absolute;
         bottom: 15vh;
-        left: 33%;
+        left: 35%;
         z-index: 5;
         margin-top:1rem;
         margin-left: 3rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
       }
       #txt1{
         font-size: 3rem;
@@ -609,8 +616,9 @@
       }
       #contactus{
         width: 100%;
-        height: 100vh;
+        height: 110vh;
         background:orangered;
+        padding-bottom: 2rem;
       }
       .containercontact{
         position: relative;
