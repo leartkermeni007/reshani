@@ -817,7 +817,7 @@ font-family: 'Dosis', sans-serif;
             justify-content: center;
           }
           .card{
-            margin-left: 1.7rem;
+            margin-left: 0.5rem
             height: 10rem;
             align-self: center;
           }
