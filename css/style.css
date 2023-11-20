@@ -52,10 +52,18 @@
       border-radius: 24px;
       text-align: center;
       box-shadow:0 5px 35px rgba(0,0,0,0.15);
+      transition:0.5s;
+    }
+    .card:hover{
+      background-color: orangered;
+      width: 345px;
+      height: 245px;
+      border-radius:40px;
+      border: 2px solid black;
+      cursor: default;
     }
     .tcon{
       width: 100%;
-      height: 50vh;
       display: flex;
       justify-content: center;
     }
@@ -99,86 +107,83 @@
       text-align: center;
 
     }
-    /* Navbar styles */
-    #section1{
+    #section1 {
+      display: flex;
+      align-items: flex-start; /* Updated to align content at the top */
+      justify-content: center;
       width: 100%;
       height: 100vh;
-      background-image:url("../photo/Untitled design.png") ;
+      background-image: url("../photo/Untitled design.png");
       background-repeat: no-repeat;
-      background-size:cover;
+      background-size: cover;
       background-position: center center;
     }
-    .navbar {
-     margin-left:35rem;
-    }
-    .navitmes{
-      float:left;
-    }
-  
-    #logo{
-      width: 12rem;
-      height: 10rem;
-    }
-    .mainMenu{
-      float:right;
-    }
-    .navbar a {
-      margin-left: 5rem;
-      margin-top:3rem;
-      font-size: 24px;
-      float: right;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .navbar a:hover {
+     
+    
+          .navitmes{
+            float:left;
+          }
+        
+          #logo{
+            width: 12rem;
+            height: 10rem;
+          }
+          .mainMenu{
+            float:right;
+          }
+          .navbar a {
+            margin-left: 5rem;
+            margin-top:3rem;
+            font-size: 24px;
+            float: right;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.3s;
+          }
       
-      color: black;
-      text-decoration: underline;
-      font-size: 26px;
-    }
-
-
-    /* Responsive styles */
-    #e1{
-      position: absolute;
-      bottom: 15vh;
-      left: 33%;
-      z-index: 5;
-      margin-top:1rem;
-      margin-left: 10rem;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-    }
-    #txt1{
-      font-size: 3rem;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    #but1{
-      margin-left:3rem;
-      font-size: 1rem;
-      width: 15rem;
-      border: 1px solid black;
-      border-radius: 20px;
-      background-color: orangered;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      outline: none;
-      cursor: pointer;
-      transition: 0.3s;
-    }
+          .navbar a:hover {
+            
+            color: black;
+            text-decoration: underline;
+            font-size: 26px;
+          }
+    
+      
+          /* Responsive styles */
+          .e1{
+            position: absolute;
+            bottom: 15vh;
+            z-index: 5;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+          }
+          #txt1{
+            font-size: 3rem;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          #but1{
+            font-size: 1rem;
+            width: 15rem;
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: orangered;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 36px;
+            text-decoration: none;
+            outline: none;
+            cursor: pointer;
+            transition: 0.3s;
+          }
     #but1:hover {
       font-size: 1.1rem;
       background-color: rgb(255, 100, 0);
@@ -424,10 +429,9 @@
 .footer  i{
   margin-left: 1rem;
   display: inline;
-}
+} 
 
 @media screen and (max-width: 1524px){
-
 ::-webkit-scrollbar {
     width: 0.7rem;
 }
@@ -459,17 +463,19 @@
       }
   
       /* Navbar styles */
-      #section1{
-        width: 100%;
-        height: 100vh;
-        background-image:url("../photo/Untitled design.png") ;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center center;
-      }
-      .navbar {
-       margin-left:15rem;
-      }
+    #section1 {
+  display: flex;
+  align-items: flex-start; /* Updated to align content at the top */
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../photo/Untitled design.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+ 
+
       .navitmes{
         float:left;
       }
@@ -503,16 +509,14 @@
 
   
       /* Responsive styles */
-      #e1{
+      .e1{
         position: absolute;
         bottom: 15vh;
-        left: 35%;
         z-index: 5;
-        margin-top:1rem;
-        margin-left: 3rem;
-        text-align: center;
+        width: 100%;
         align-items: center;
         justify-content: center;
+        text-align: center;
       }
       #txt1{
         font-size: 3rem;
@@ -523,16 +527,14 @@
         text-decoration: none;
       }
       #but1{
-        margin-left:3rem;
         font-size: 1rem;
         width: 15rem;
         border: 1px solid black;
         border-radius: 20px;
         background-color: orangered;
-        display: block;
         color: #f2f2f2;
         text-align: center;
-        padding: 14px 16px;
+        padding: 14px 36px;
         text-decoration: none;
         outline: none;
         cursor: pointer;
@@ -778,7 +780,6 @@ font-family: 'Dosis', sans-serif;
       text-decoration: none;
   }
 }
-      
       @media screen and (max-width: 1200px){
         #logo{
           margin-left: 4.5rem;
@@ -804,11 +805,28 @@ font-family: 'Dosis', sans-serif;
         }
       }
         @media screen and (max-width: 991px){
+          #section2 .title121 h1{
+            padding-top: 3rem;
+            font-size: 1.5rem;
+          }
           #section2{
-            height: 240vh;
+            height: auto;
+            padding-bottom: 2rem;
+          }
+          .card{
+            height: 10rem;
+          }
+          #section2 .fp {
+            width: 90%;
+            text-transform: uppercase;
+            font-size: 10px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+      
           }
           .ccontainer{
-            height: 165vh;
+            height: auto;
             display: block;
           }
           .a1{
@@ -902,14 +920,18 @@ font-family: 'Dosis', sans-serif;
           display: block;
           float: none;
         }
-        #e1{
-          left: 0.7rem;
-          margin-left: 0;
-          text-align: center;
-        }
-        #but1{
-          margin-left: 4rem;
-        }
+  #txt1{
+    font-size: 2rem;
+  }
+  #but1{
+  
+    font-size: 0.8rem;
+    padding: 12px 12px;
+  }
+  #but1:hover {
+    font-size: 0.9rem;
+  }
+
 
         .container{
           padding-bottom: 1rem;
