@@ -782,6 +782,12 @@ font-family: 'Dosis', sans-serif;
   }
 }
       @media screen and (max-width: 1200px){
+          .ccontainer{
+      align-items:center;
+      justify-content: center;
+      margin-top: 2rem;
+
+    }
         .card{
           width:100%;
         }
