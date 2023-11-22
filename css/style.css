@@ -789,7 +789,7 @@ font-family: 'Dosis', sans-serif;
 
     }
             .card{
-      width: 80%;
+      width: auto;
       transition:0.5s;
     }
     .card:hover{
