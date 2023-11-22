@@ -788,9 +788,17 @@ font-family: 'Dosis', sans-serif;
       margin-top: 2rem;
 
     }
-        .card{
-          width:100%;
-        }
+            .card{
+      width: 80%;
+      transition:0.5s;
+    }
+    .card:hover{
+      background-color: orangered;
+      width: 77%;
+      border-radius:40px;
+      border: 2px solid black;
+      cursor: default;
+    }
         #logo{
           margin-left: 4.5rem;
           width: 12rem;
