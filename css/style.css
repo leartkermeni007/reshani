@@ -794,7 +794,8 @@ font-family: 'Dosis', sans-serif;
     }
     .card:hover{
       background-color: orangered;
-      width: 77%;
+      width: auto;
+      height:auto;
       border-radius:40px;
       border: 2px solid black;
       cursor: default;
