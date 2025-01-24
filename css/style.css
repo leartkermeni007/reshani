@@ -837,7 +837,8 @@ font-family: 'Dosis', sans-serif;
           }
           .card{
             margin-left: 1.7rem;
-            height: 10rem;
+            height: auto;
+            padding-bottom:10px;
             align-self: center;
           }
           #section2 .fp {
