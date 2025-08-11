@@ -50,7 +50,7 @@ function Hero() {
         </div>
       </div>
       <div className="card" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <img src="assets/wlogo.png" alt="kamera" style={{ width: 220, height: 220, objectFit: 'contain' }} />
+        <img src="wlogo.png" alt="kamera" style={{ width: 220, height: 220, objectFit: 'contain' }} />
       </div>
     </section>
   );
@@ -89,9 +89,9 @@ function Gallery() {
     <section id="gallery" className="container">
       <h2 style={{ marginTop: 20 }}>Galeria</h2>
       <div className="gallery">
-        <img src="assets/photo1.png" alt="g1" />
-        <img src="assets/photo2.png" alt="g2" />
-        <img src="assets/photo3.png" alt="g3" />
+        <img src="photo1.png" alt="g1" />
+        <img src="photo2.png" alt="g2" />
+        <img src="photo3.png" alt="g3" />
       </div>
     </section>
   );
